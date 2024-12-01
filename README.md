@@ -1,0 +1,1 @@
+git clone https://github.com/Lukerator/NixOSLuke && sudo mv /etc/nixos/configuration.nix /etc/nixos/configuration1.nix && cd github && sudo cp -r ./nixos/* /etc/nixos/ && cp -r ./.flakes/ ~/ && cp -r ./home-manager/ ~/.config/
